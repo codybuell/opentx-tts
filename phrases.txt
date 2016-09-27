@@ -1,0 +1,303 @@
+# blank lines and those starting with a '#' are ignored
+# filename length for the taranis is limited to 8 characters
+# format is one file per line:        [filename] [phrase to be spoken]
+# create subfolders for your files:   ::FOLDERNAME
+# folders can be multiple layrs deep: ::FOLDER/SUBFOLDER/ETC
+
+##########
+# CUSTOM #
+##########
+
+# name #    # spoken phrase #
+on          on
+off         off
+cruz        cruise
+thrml       thermal
+speed       speed
+lnch        launch
+zoom        zoom
+bklgton     backlight on
+bklgtoff    backlight off
+btoaoff     b-t-o-a off
+btoamid     b-t-o-a mid
+btoaon      b-t-o-a on
+snpflon     snap flaps on
+snpflof     snap flaps off
+tmroff      timer off
+tmrsoff     timers off
+ftmron      flight timer on
+alltmon     window and flight timers on
+thrhirt     throttle high rate
+thrlort     throttle low rate
+thrmdrt     throttle mid rate
+ailhirt     ailerons high rate
+aillort     ailerons low rate
+ailmdrt     ailerons mid rate
+elehirt     elevator high rate
+elelort     elevator low rate
+elemdrt     elevator mid rate
+xmode       x mode
+pmode       plus mode
+hoveron     hover mode on
+hoverof     hover mode off
+armed       system armed
+disarmd     system disarmed
+tensalt     ten second altimeter readout on
+thrsalt     thirty second altimeter readout on
+altioff     altimeter readout off
+tensa1v     ten second a-1 voltage readout on
+tsa1vof     ten second a-1 voltage readout off
+
+
+acro        acro mode
+crowof      crow off
+crowon      crow on
+engoff      engine off
+flapdn      flaps down
+flapup      flaps up
+fm-1        flight mode one
+fm-2        flight mode two
+fm-3        flight mode three
+fm-4        flight mode four
+fm-5        flight mode five
+fm-6        flight mode six
+fm-7        flight mode seven
+fm-8        flight mode eight
+fm-acr      flight mode acro
+fm-crs      flight mode cruise
+fm-flt      flight mode flight
+fm-fst      flight mode fast
+fm-lch      flight mode launch
+fm-lnd      flight mode land
+fm-nrm      flight mode normal
+fm-png      flight mode ping
+fm-pwr      flight mode power
+fm-rce      flight mode race
+fm-spd      flight mode speed
+fm-thm      flight mode thermal
+fm-thml     flight mode thermal left
+fm-thmr     flight mode thermal right
+geardn      gear down
+gearup      gear up
+lnding      landing mode on
+lowbat      low battery
+nrmmod      normal mode on
+sigcrt      r f signal critical
+siglow      r f signal low
+spdmod      high speed mode on
+splrdn      spoiler down
+splrup      spoiler up
+thmmod      thermal mode on
+tohigh      to high
+tolow       to low
+trnoff      trainer off
+trnon       trainer on
+vrioff      vario off
+vrion       vario on
+
+##########
+# SYSTEM #
+##########
+
+::SYSTEM
+
+# name #    # spoken phrase #
+0000        zero
+0001        one
+0002        two
+0003        three
+0004        four
+0005        five
+0006        six
+0007        seven
+0008        eight
+0009        nine
+0010        ten
+0011        eleven
+0012        twelve
+0013        thirteen
+0014        fourteen
+0015        fifteen
+0016        sixteen
+0017        seventeen
+0018        eighteen
+0019        nineteen
+0020        twenty
+0021        twenty one
+0022        twenty two
+0023        twenty three
+0024        twenty four
+0025        twenty five
+0026        twenty six
+0027        twenty seven
+0028        twenty eight
+0029        twenty nine
+0030        thirty
+0031        thirty one
+0032        thirty two
+0033        thirty three
+0034        thirty four
+0035        thirty five
+0036        thirty six
+0037        thirty seven
+0038        thirty eight
+0039        thirty nine
+0040        forty
+0041        forty one
+0042        forty two
+0043        forty three
+0044        forty four
+0045        forty five
+0046        forty six
+0047        forty seven
+0048        forty eight
+0049        forty nine
+0050        fifty
+0051        fifty one
+0052        fifty two
+0053        fifty three
+0054        fifty four
+0055        fifty five
+0056        fifty six
+0057        fifty seven
+0058        fifty eight
+0059        fifty nine
+0060        sixty
+0061        sixty one
+0062        sixty two
+0063        sixty three
+0064        sixty four
+0065        sixty five
+0066        sixty six
+0067        sixty seven
+0068        sixty eight
+0069        sixty nine
+0070        seventy
+0071        seventy one
+0072        seventy two
+0073        seventy three
+0074        seventy four
+0075        seventy five
+0076        seventy six
+0077        seventy seven
+0078        seventy eight
+0079        seventy nine
+0080        eighty
+0081        eighty one
+0082        eighty two
+0083        eighty three
+0084        eighty four
+0085        eighty five
+0086        eighty six
+0087        eighty seven
+0088        eighty eight
+0089        eighty nine
+0090        ninety
+0091        ninety one
+0092        ninety two
+0093        ninety three
+0094        ninety four
+0095        ninety five
+0096        ninety six
+0097        ninety seven
+0098        ninety eight
+0099        ninety nine
+0100        one hundred
+0101        two hundred
+0102        three hundred
+0103        four hundred
+0104        five hundred
+0105        six hundred
+0106        seven hundred
+0107        eight hundred
+0108        nine hundred
+0109        thousand
+0110        and
+0111        minus
+0112        point
+0115        volt
+0116        volts
+0117        amp
+0118        amps
+0119        milli amp
+0120        milli amps
+0121        knot
+0122        knots
+0123        meter per second
+0124        meters per second
+0125        foot per second
+0126        feet per second
+0127        kilometer per hour
+0128        kilometers per hour
+0129        mile per hour
+0130        miles per hour
+0131        meter
+0132        meters
+0133        foot
+0134        feet
+0135        degree
+0136        degrees
+0137        degree farenheight
+0138        degrees farenheight
+0139        percent
+0140        percent
+0141        milli amp power
+0142        milli amp powers
+0143        watt
+0144        watts
+0145        db
+0146        db
+0147        rpm
+0148        rpm
+0149        g
+0150        g
+0151        degree
+0152        degrees
+0153        milli liter
+0154        milli liters
+0155        fluid ounce
+0156        fluid ounces
+0157        hour
+0158        hours
+0159        minute
+0160        minutes
+0161        second
+0162        seconds
+0165        point zero
+0166        point one
+0167        point two
+0168        point three
+0169        point four
+0170        point five
+0171        point six
+0172        point seven
+0173        point eight
+0174        point nine
+a1_org      a 1 low
+a1_red      a 1 critical
+a2_org      a 2 low
+a2_red      a 2 critical
+a3_org      a 3 low
+a3_red      a 3 critical
+a4_org      a 4 low
+a4_red      a 4 critical
+eebad       bad e e prom
+endtrim     trim maximum
+inactiv     inactivity alarm
+lowbatt     low battery
+midtrim     trim center
+rssi_org    r s s i low
+rssi_red    r s s i critical
+rx_org      reciever battery low
+rx_red      reciever battery critical
+swalert     switch warning
+swr_red     radio antenna defective
+tada        welcome to open t x
+tada_opentx welcome to open t x
+telemko     telemetry lost
+telemok     telemetry recovered
+thralert    throttle warning
+timer10     ten seconds
+timer20     twenty seconds
+timer30     thirty seconds
+timerlt3    time up
