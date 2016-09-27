@@ -1,8 +1,8 @@
 # blank lines and those starting with a '#' are ignored
-# filename length for the taranis is limited to 8 characters
-# format is one file per line:        [filename] [phrase to be spoken]
-# create subfolders for your files:   ::FOLDERNAME
-# folders can be multiple layrs deep: ::FOLDER/SUBFOLDER/ETC
+# filename length for the taranis/opentx is limited to 8 characters
+# format is one file per line:         [filename] [phrase to be spoken]
+# create subfolders for your files:    ::FOLDERNAME
+# folders can be multiple layers deep: ::FOLDER/SUBFOLDER/ETC
 
 ##########
 # CUSTOM #
